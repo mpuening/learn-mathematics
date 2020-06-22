@@ -1,0 +1,25 @@
+= Learn Mathematics - Pure Mathematics
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Pure Mathematics
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+Pure mathematics is the study of numbers, structures, spaces, and change.
+
+== Numbers
+
+
+== Structures
+
+
+== Spaces
+
+
+== Change
+

@@ -1,0 +1,33 @@
+= Learn Mathematics - Foundations
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Foundations
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+From where do we get mathematics?  Is there is a minimal set of truths from which we can base all of mathematics?
+It turns out that there is not, but we do the best we can.
+
+== Logic
+
+Mathematicians need to think logically. Knowing logic and how to make sound conclusions given statements is
+critical. This link:logic/index.html[page] discusses logic.
+
+== Set Theory
+
+
+== Axioms
+
+
+== Proof Theory
+
+
+== Incompleteness
+
+
+== Computability

@@ -1,0 +1,51 @@
+= Learn Mathematics - Main Page
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Main Page
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+Welcome to my musings on learning mathematics (all over again). I am just taking notes on areas
+that I find interesting at the time. You probably won't find anything interesting here. I am sure I
+will replicate many proofs that have been done a million times before, but I do this to (re)form memories
+in my mind and convince myself I understand the material. Will there be typos and mistakes here? You bet.
+
+I am not trying to find anything new. But I would like to try out proofs written in a formal language and
+verified by software such as link:http://us.metamath.org/[Metamath] or similar (Isabelle / HOL Light). I will
+likely also have programs to calculate equations. I also have an interest in program verification, so something
+like that might show up.
+
+The following sections are based on the link:https://en.wikipedia.org/wiki/Areas_of_mathematics[areas of mathematics]
+and the link:https://en.wikipedia.org/wiki/Mathematics_Subject_Classification[Mathematics Subject Classification].
+
+== Foundations
+
+Mathematics needs to have a foundation of truths in which we base our proofs.
+This link:web/foundations/index.html[page] discusses logic, set theory and various types of axioms and more.
+
+== Pure Mathematics
+
+Mathematics is the study of numbers, structures, spaces and change. This link:web/pure/index.html[page] discusses pure mathematics.
+
+== Applied Mathematics
+
+This link:web/applied/index.html[page] discusses just a few areas of which you can apply your mathematical knowledge.
+
+== History
+
+A lot of civilizations had great mathematicians. Click link:web/history/index.html[here] to learn more. 
+
+== Recreational Mathematics
+
+Some people just want to have fun with mathematics. This link:web/recreational/index.html[page] collects some funny (to me)
+mathematical topics.
+
+== Notation
+
+Every mathematician needs to know notation to effectively communicate with others.
+This link:web/notation/index.html[page] contains a glossary of notation symbols and describes what they mean.

@@ -1,0 +1,14 @@
+= Learn Mathematics - Recreational Mathematics
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Recreational Mathematics
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+This is a place to have fun.
+

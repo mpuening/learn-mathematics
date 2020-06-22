@@ -1,0 +1,73 @@
+= Learn Mathematics - History
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - History
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+The history of mathematics is an interesting tale. Starting so slowly and building immense momentum in the last few hundred years.
+History classes sometimes ask students to do a report on their favorite mathematician. I wouldn't say I have a favorite, but a
+few come to mind. First, Euler; he was a very productive fellow by any measure, and he did so while having lost his eyesight...
+very impressive. Second, I watched the Ramanujan movie and enjoyed it. It made be both ponder what he could have done had he
+been treated fairly, and not got sick, and how Hardy's view on people may have changed because of those events. Lastly, there's
+Kurt Gödel, a man whose theorems proved that faith and science are not enemies. God just might have a hiding place we may never
+get to. Also Gödel was best friends with Albert Einstein... how cool is that?
+
+The Wikipedia link to the history of mathematics is link:https://en.wikipedia.org/wiki/History_of_mathematics[here].
+
+I have collected some notes in the sections below that I have found interesting.
+
+== Prehistoric
+
+How did prehistoric people use mathematics?
+
+== Babylonian
+
+The Babyloniansdiscovered a lot of our mathematics we use today.
+
+== Egyptian
+
+The Egyptions continued where the Babylonians left off.
+
+== Greek
+
+Logic and reasoning come to age with the Greeks.
+
+== Roman
+
+The Romans pioneered applied mathematics.
+
+== Chinese
+
+What were the Chinese up to?
+
+== Indian
+
+Our "Arabic" numerals actually derive from Hindu numerals. Also, sin and cosine come from
+mistranslations of Sanskrit words.
+
+== Islamic Empire
+
+Our word algebra comes from the Arabic word for algorithm. 
+
+== Mayan
+
+The Mayans used a base 20 counting system.
+
+== Medieval
+
+Fibonacci spread the latest mathematics throughout Europe.
+
+== Renaissance
+
+Imaginary numbers and the plus and minus signs we use today make their first appearance in the Renaissance.
+
+== Modern
+
+Beginning with Galileo, Newton and Euler, the age of enlightenment is here and everything that might make mathematics difficult
+for you was discovered in the these last few centuries.

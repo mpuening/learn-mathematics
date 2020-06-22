@@ -1,0 +1,71 @@
+= Learn Mathematics - Logic
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Logic
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+Sentential Logic, or propositional logic is a formal method of inference.
+It takes premises, applies logic, and derives valid conclusions.
+
+== Logic
+
+Mathematicians need to think logically. Knowing logic and how to make sound
+conclusions given statements is critical. This page discusses logic.
+
+
+== Operations
+
+=== Simple Sentences
+
+Simple sentences are sentences without any logical connectives. Logic connectives
+include "not", "and", "or", and "if/then". Simple sentences must either be true or false
+and not both.
+
+For example, a simple sentence is "I am in New York." A bad example is "I am happy".
+
+=== Breaking Down Complex Sentences
+
+Given a complex sentence, one must be able to determine how the sentence breaks down
+into simple sentences and how they are connected by the connectives.
+
+Consider:
+
+TODO
+
+=== Representing Sentences
+
+Using letters to represent simple sentences allows algebraic notation to work through 
+problems.
+
+The page uses capital letters.
+
+=== Negation
+
+=== Disjunction (or)
+
+=== Conjunction (and)
+
+=== Conditional (if/then)
+
+=== Bi-conditional (if and only if)
+
+== Truth Tables
+
+== Replacement Rules
+
+== Rules of Inference
+
+== Direct Proof
+
+== Conditional Proof
+
+== Proof by Contradiction
+
+== Formal Fallacies
+

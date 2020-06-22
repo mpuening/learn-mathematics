@@ -1,0 +1,22 @@
+= Learn Mathematics - Applied Mathematics
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Applied Mathematics
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+There are a lot of ways to apply mathematics in the real world. The following are just a few.
+
+== Statistics
+
+
+== Physics
+
+
+== Computer Science
+

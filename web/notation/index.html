@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>Learn Mathematics - Main Page</title>
+<title>Learn Mathematics - Notation</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,16 +439,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Learn Mathematics - Main Page</h1>
+<h1>Learn Mathematics - Notation</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Sections</div>
 <ul class="sectlevel1">
-<li><a href="#foundations">1. Foundations</a></li>
-<li><a href="#pure-mathematics">2. Pure Mathematics</a></li>
-<li><a href="#applied-mathematics">3. Applied Mathematics</a></li>
-<li><a href="#history">4. History</a></li>
-<li><a href="#recreational-mathematics">5. Recreational Mathematics</a></li>
-<li><a href="#notation">6. Notation</a></li>
+<li><a href="#number-sets">1. Number Sets</a></li>
+<li><a href="#greek-letters">2. Greek Letters</a></li>
+<li><a href="#logic-notation">3. Logic Notation</a></li>
+<li><a href="#set-notation">4. Set Notation</a></li>
+<li><a href="#quantifiers">5. Quantifiers</a></li>
+<li><a href="#relation-operators">6. Relation Operators</a></li>
+<li><a href="#binary-operators">7. Binary Operators</a></li>
+<li><a href="#counting-notation">8. Counting Notation</a></li>
+<li><a href="#geometry-symbols">9. Geometry Symbols</a></li>
+<li><a href="#trigonometry-functions">10. Trigonometry Functions</a></li>
+<li><a href="#asciidoc-examples">11. Asciidoc examples</a></li>
 </ul>
 </div>
 </div>
@@ -456,71 +461,394 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Welcome to my musings on learning mathematics (all over again). I am just taking notes on areas
-that I find interesting at the time. You probably won&#8217;t find anything interesting here. I am sure I
-will replicate many proofs that have been done a million times before, but I do this to (re)form memories
-in my mind and convince myself I understand the material. Will there be typos and mistakes here? You bet.</p>
+<p>Below are select examples of writing mathematical expressions and what they mean.</p>
 </div>
 <div class="paragraph">
-<p>I am not trying to find anything new. But I would like to try out proofs written in a formal language and
-verified by software such as <a href="http://us.metamath.org/">Metamath</a> or similar (Isabelle / HOL Light). I will
-likely also have programs to calculate equations. I also have an interest in program verification, so something
-like that might show up.</p>
+<p>For further reference, see these links:</p>
 </div>
 <div class="paragraph">
-<p>The following sections are based on the <a href="https://en.wikipedia.org/wiki/Areas_of_mathematics">areas of mathematics</a>
-and the <a href="https://en.wikipedia.org/wiki/Mathematics_Subject_Classification">Mathematics Subject Classification</a>.</p>
+<p><a href="https://oeis.org/wiki/LaTeX" class="bare">https://oeis.org/wiki/LaTeX</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols" class="bare">https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" class="bare">https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="foundations"><a class="anchor" href="#foundations"></a>1. Foundations</h2>
+<h2 id="number-sets"><a class="anchor" href="#number-sets"></a>1. Number Sets</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Mathematics needs to have a foundation of truths in which we base our proofs.
-This <a href="web/foundations/index.html">page</a> discusses logic, set theory and various types of axioms and more.</p>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Number Sets</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\emptyset = \{ \} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>The empty set</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathbb{N} = \{ 1, 2, 3, \dots \} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>The set natural numbers without zero</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathbb{Z} = \{ \dots, -2, -1, 0, 1, 2, 3, \dots \} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>The set of integers</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathbb{Q} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>The set of rational numbers</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathbb{R} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>The set of real numbers</em></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="pure-mathematics"><a class="anchor" href="#pure-mathematics"></a>2. Pure Mathematics</h2>
+<h2 id="greek-letters"><a class="anchor" href="#greek-letters"></a>2. Greek Letters</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Mathematics is the study of numbers, structures, spaces and change. This <a href="web/pure/index.html">page</a> discusses pure mathematics.</p>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Select Greek Lettera</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathrm{A} \text{ and } \alpha\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>alpha</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathrm{B} \text{ and } \beta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>beta</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Gamma \text{ and } \gamma\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>gamma</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Delta \text{ and } \delta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>delta</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Theta \text{ and } \theta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>theta</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Lambda \text{ and } \lambda\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>lambda</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mathrm{M} \text{ and } \mu\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>mu</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Pi \text{ and } \pi\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>pi</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Sigma \text{ and } \sigma\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>sigma</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\Omega \text{ and } \omega\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>omega</em></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="applied-mathematics"><a class="anchor" href="#applied-mathematics"></a>3. Applied Mathematics</h2>
+<h2 id="logic-notation"><a class="anchor" href="#logic-notation"></a>3. Logic Notation</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>This <a href="web/applied/index.html">page</a> discusses just a few areas of which you can apply your mathematical knowledge.</p>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 3. Logic Notation</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\neg P\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Not P</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(P \lor Q\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>P or Q</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(P \land Q\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>P and Q</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(P \implies Q\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>If P then Q</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(P \iff Q\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>P if and only if Q</em></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="history"><a class="anchor" href="#history"></a>4. History</h2>
+<h2 id="set-notation"><a class="anchor" href="#set-notation"></a>4. Set Notation</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>A lot of civilizations had great mathematicians. Click <a href="web/history/index.html">here</a> to learn more.</p>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 4. Set Notation</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \in S\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is member of set S</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(S \subset \mathbb{N}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>S is a proper subset of set the natural numbers</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(S \subseteq \mathbb{N}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>S is a subset of set the natural numbers</em></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="recreational-mathematics"><a class="anchor" href="#recreational-mathematics"></a>5. Recreational Mathematics</h2>
+<h2 id="quantifiers"><a class="anchor" href="#quantifiers"></a>5. Quantifiers</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Some people just want to have fun with mathematics. This <a href="web/recreational/index.html">page</a> collects some funny (to me)
-mathematical topics.</p>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 5. Quantifiers</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\exists z \in \mathbb{N} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>There exists z that is a member of the set natural numbers</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\forall n \in \mathbb{N} \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>For all n in the set of natural numbers</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\forall z \in \mathbb{Z} \text{ } \exists z' \in \mathbb{Z} \text{ such that } z' &gt; z\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>For all z in the set of all real numbers, there exists a successor of z such that the successor of z is greater than z</em></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="notation"><a class="anchor" href="#notation"></a>6. Notation</h2>
+<h2 id="relation-operators"><a class="anchor" href="#relation-operators"></a>6. Relation Operators</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Every mathematician needs to know notation to effectively communicate with others.
-This <a href="web/notation/index.html">page</a> contains a glossary of notation symbols and describes what they mean.</p>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 6. Relation Operators</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n = 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is equal to 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \neq 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is not equal to 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n &lt; 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is less than 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \leq 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is less than or equal to 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n &gt; 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is greater than 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \geq 1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is greater than or equal to 1</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \equiv m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is equivalent to m</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \approx m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is approximately m</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \cong m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is congruent to m</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \simeq m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is similar or equal to m</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n \sim m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>n is similar to m</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="binary-operators"><a class="anchor" href="#binary-operators"></a>7. Binary Operators</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 7. Binary Operators</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(a + b\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>a plus b</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(a - b\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>a minus b</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(ab\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>a times b</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{a}{b}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>a divided by b</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="counting-notation"><a class="anchor" href="#counting-notation"></a>8. Counting Notation</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 8. Counting Notation</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sum_{i=1}^{10} t_i \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Sum of the first ten numbers of t</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\int_0^\infty \mathrm{e}^{-x} \, \mathrm{d}x \)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Intergal from zero to infinity of e to the negative x</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="geometry-symbols"><a class="anchor" href="#geometry-symbols"></a>9. Geometry Symbols</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 9. Geometric Symbols</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\overline{\rm AB}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Line Segment AB</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\overline{\rm AB} \parallel \overline{\rm CD}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Segment AB is parallel to segment CD</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\overline{\rm AB} \perp \overline{\rm CD}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Segment AB is perpendicular to segment CD</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\angle A\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Angle A</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="trigonometry-functions"><a class="anchor" href="#trigonometry-functions"></a>10. Trigonometry Functions</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 10. Trigonometry Functions</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin{\theta}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Sine of theta</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos{\theta}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Cosine of theta</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\tan{\theta}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Tangent of theta</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="asciidoc-examples"><a class="anchor" href="#asciidoc-examples"></a>11. Asciidoc examples</h2>
+<div class="sectionbody">
+<div class="stemblock">
+<div class="title">asciimath in [asciimath] block</div>
+<div class="content">
+\$sum_(i=0)^n i = (n(n+1))/2\$
+</div>
+</div>
+<div class="stemblock">
+<div class="title">latexmath in [latextmath] block</div>
+<div class="content">
+\[\int_0^1 x^n= \frac{1}{n+1}\]
+</div>
+</div>
+<div class="stemblock">
+<div class="title">latexmath in [stem] block</div>
+<div class="content">
+\$\int_0^1 x^n= \frac{1}{n+1}\$
+</div>
+</div>
+<div class="stemblock">
+<div class="title">latexmath in [latextmath] block</div>
+<div class="content">
+\[\begin{equation}
+\begin{aligned}
+\mathcal{L}^{-1}\left\{f(d)\right\} &amp;= \mathcal{L}^{-1}\left\{f_1(\delta).f_2(\delta)\right\} \\
+&amp; = \exp(mt) \star \left\{\frac{l}{2\sqrt{\pi t^3}} exp(-l^2/{4t})\right\} \\
+&amp; = F_1 * F_2
+\end{aligned}
+\end{equation}\]
+</div>
 </div>
 </div>
 </div>

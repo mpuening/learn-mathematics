@@ -1,0 +1,163 @@
+= Learn Mathematics - Notation
+:stem:
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Sections
+:nofooter:
+
+:description: Learn Mathematics - Notation
+:keywords: AsciiDoc
+:imagesdir: ./img
+
+Below are select examples of writing mathematical expressions and what they mean.
+
+For further reference, see these links:
+
+https://oeis.org/wiki/LaTeX
+
+https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+
+https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+
+== Number Sets
+
+.Number Sets
+|==========================
+|latexmath:[$\emptyset = \{ \} $]|_The empty set_
+|latexmath:[$\mathbb{N} = \{ 1, 2, 3, \dots \} $]|_The set natural numbers without zero_
+|latexmath:[$\mathbb{Z} = \{ \dots, -2, -1, 0, 1, 2, 3, \dots \} $]|_The set of integers_
+|latexmath:[$\mathbb{Q} $]|_The set of rational numbers_
+|latexmath:[$\mathbb{R} $]|_The set of real numbers_
+|==========================
+
+== Greek Letters
+
+.Select Greek Lettera
+|==========================
+|latexmath:[$\mathrm{A} \text{ and } \alpha$]|_alpha_
+|latexmath:[$\mathrm{B} \text{ and } \beta$]|_beta_
+|latexmath:[$\Gamma \text{ and } \gamma$]|_gamma_
+|latexmath:[$\Delta \text{ and } \delta$]|_delta_
+|latexmath:[$\Theta \text{ and } \theta$]|_theta_
+|latexmath:[$\Lambda \text{ and } \lambda$]|_lambda_
+|latexmath:[$\mathrm{M} \text{ and } \mu$]|_mu_
+|latexmath:[$\Pi \text{ and } \pi$]|_pi_
+|latexmath:[$\Sigma \text{ and } \sigma$]|_sigma_
+|latexmath:[$\Omega \text{ and } \omega$]|_omega_
+|==========================
+
+== Logic Notation
+
+.Logic Notation
+|==========================
+|latexmath:[$\neg P$]|_Not P_
+|latexmath:[$P \lor Q$]|_P or Q_
+|latexmath:[$P \land Q$]|_P and Q_
+|latexmath:[$P \implies Q$]|_If P then Q_
+|latexmath:[$P \iff Q$]|_P if and only if Q_
+|==========================
+
+== Set Notation
+
+.Set Notation
+|==========================
+|latexmath:[$n \in S$]|_n is member of set S_
+|latexmath:[$S \subset \mathbb{N}$]|_S is a proper subset of set the natural numbers_
+|latexmath:[$S \subseteq \mathbb{N}$]|_S is a subset of set the natural numbers_
+|==========================
+
+== Quantifiers
+
+.Quantifiers
+|==========================
+|latexmath:[$\exists z \in \mathbb{N} $]|_There exists z that is a member of the set natural numbers_
+|latexmath:[$\forall n \in \mathbb{N} $]|_For all n in the set of natural numbers_
+|latexmath:[$\forall z \in \mathbb{Z} \text{ } \exists z' \in \mathbb{Z} \text{ such that } z' > z$]|_For all z in the set of all real numbers, there exists a successor of z such that the successor of z is greater than z_
+|==========================
+
+== Relation Operators
+
+.Relation Operators
+|==========================
+|latexmath:[$n = 1$]|_n is equal to 1_
+|latexmath:[$n \neq 1$]|_n is not equal to 1_
+|latexmath:[$n < 1$]|_n is less than 1_
+|latexmath:[$n \leq 1$]|_n is less than or equal to 1_
+|latexmath:[$n > 1$]|_n is greater than 1_
+|latexmath:[$n \geq 1$]|_n is greater than or equal to 1_
+|latexmath:[$n \equiv m$]|_n is equivalent to m_
+|latexmath:[$n \approx m$]|_n is approximately m_
+|latexmath:[$n \cong m$]|_n is congruent to m_
+|latexmath:[$n \simeq m$]|_n is similar or equal to m_
+|latexmath:[$n \sim m$]|_n is similar to m_
+|==========================
+
+== Binary Operators
+
+.Binary Operators
+|==========================
+|latexmath:[$a + b$]|_a plus b_
+|latexmath:[$a - b$]|_a minus b_
+|latexmath:[$ab$]|_a times b_
+|latexmath:[$\frac{a}{b}$]|_a divided by b_
+|==========================
+
+== Counting Notation
+
+.Counting Notation
+|==========================
+|latexmath:[$\sum_{i=1}^{10} t_i $]|_Sum of the first ten numbers of t_
+|latexmath:[$\int_0^\infty \mathrm{e}^{-x} \, \mathrm{d}x $]|_Intergal from zero to infinity of e to the negative x_
+|==========================
+
+== Geometry Symbols
+
+.Geometric Symbols
+|==========================
+|latexmath:[$\overline{\rm AB}$]|_Line Segment AB_
+|latexmath:[$\overline{\rm AB} \parallel \overline{\rm CD}$]|_Segment AB is parallel to segment CD_
+|latexmath:[$\overline{\rm AB} \perp \overline{\rm CD}$]|_Segment AB is perpendicular to segment CD_
+|latexmath:[$\angle A$]|_Angle A_
+|==========================
+
+== Trigonometry Functions
+
+.Trigonometry Functions
+|==========================
+|latexmath:[$\sin{\theta}$]|_Sine of theta_
+|latexmath:[$\cos{\theta}$]|_Cosine of theta_
+|latexmath:[$\tan{\theta}$]|_Tangent of theta_
+|==========================
+
+== Asciidoc examples
+
+.asciimath in [asciimath] block
+[asciimath]
+++++
+sum_(i=0)^n i = (n(n+1))/2
+++++
+
+.latexmath in [latextmath] block
+[latexmath]
+++++
+\int_0^1 x^n= \frac{1}{n+1}
+++++
+
+.latexmath in [stem] block
+[stem]
+++++
+\int_0^1 x^n= \frac{1}{n+1}
+++++
+
+.latexmath in [latextmath] block
+[latexmath]
+++++
+\begin{equation}
+\begin{aligned}
+\mathcal{L}^{-1}\left\{f(d)\right\} &= \mathcal{L}^{-1}\left\{f_1(\delta).f_2(\delta)\right\} \\
+& = \exp(mt) \star \left\{\frac{l}{2\sqrt{\pi t^3}} exp(-l^2/{4t})\right\} \\
+& = F_1 * F_2
+\end{aligned}
+\end{equation}
+++++
