@@ -25,6 +25,7 @@
 
 	<modules>
 		<module>learn-mathematics-docs</module>
+		<module>learn-mathematics-code/learn-constraint-programming</module>
 	</modules>
 
 	<build>
